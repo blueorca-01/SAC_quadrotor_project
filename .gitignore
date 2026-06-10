@@ -1,0 +1,36 @@
+# MATLAB autosave and temporary files
+*.asv
+*.m~
+*.bak
+*.tmp
+*.log
+
+# Simulink cache and generated files
+slprj/
+sccprj/
+*.slxc
+*_ert_rtw/
+*_grt_rtw/
+codegen/
+
+# Large MATLAB data files
+*.mat
+*.fig
+
+# Reinforcement learning logs / checkpoints
+results/raw/
+results/checkpoints/
+logs/
+agents/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Simulink backup/original files
+*.slx.original
+*.mdl.original
+
+# Result folders - optional
+result/
